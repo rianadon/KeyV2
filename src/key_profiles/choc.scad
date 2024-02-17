@@ -1,7 +1,7 @@
 module choc_row(row=0, column = 0) {
   $key_shape_type = "sculpted_square";
-  $bottom_key_width = 18.45;
-  $bottom_key_height = 17.45;
+  $bottom_key_width = 17.45;
+  $bottom_key_height = 16.45;
   $width_difference = 0;
   $height_difference = 0;
   $top_tilt = 0;

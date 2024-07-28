@@ -7,9 +7,8 @@
 
 include <./includes.scad>
 
-
 // example key
-dcs_row(5) legend("⇪", size=9) key();
+ma_row(5) key();
 
 // example row
 /* for (x = [0:1:4]) {

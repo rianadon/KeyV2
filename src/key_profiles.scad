@@ -18,6 +18,7 @@ include <key_profiles/typewriter.scad>
 include <key_profiles/hex.scad>
 include <key_profiles/xda.scad>
 include <key_profiles/choc.scad>
+include <key_profiles/ma.scad>
 
 // man, wouldn't it be so cool if functions were first order
 module key_profile(key_profile_type, row, column=0) {
@@ -55,6 +56,8 @@ module key_profile(key_profile_type, row, column=0) {
     xda_row(row, column) children();
   } else if (key_profile_type == "choc") {
     choc_row(row, column) children();
+  } else if (key_profile_type == "ma") {
+    ma_row(row, column) children();
   } else if (key_profile_type == "disable") {
     children();
   } else {
